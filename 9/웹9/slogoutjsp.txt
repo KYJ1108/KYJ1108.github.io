@@ -1,0 +1,19 @@
+<title>세션 실습</title>
+<jsp:useBean id="dto" class="studpkg.StudDTOx" scope="session"/>
+
+<%
+boolean flag = dto.isVerified();
+String namex = dto.getStud_id();
+if(flag) {
+dto.setVerified(false);
+out.println(namex+"님, 로그아웃 되었습니다");
+%>
+<a href="./slogin.html">로그인 페이지</a>
+<%
+}else{
+%>
+	<h3>로그인을 해야 로그아웃을 하죠?</h3>
+	<a href="./slogin.html">로그인 페이지</a>
+<%
+}
+%>

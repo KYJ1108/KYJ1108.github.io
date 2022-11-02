@@ -1,0 +1,11 @@
+<% request.setCharacterEncoding("utf-8"); %>
+<title>로그인 실습</title>
+<jsp:useBean id="dto" class="studpkg.comp" scope="page"/>
+<jsp:setProperty name="dto" property="num"/>
+
+<section>
+<span>dto.getNum() = </span>
+<jsp:getProperty name="dto" property="num"/>
+</br><span>타 페이지 이동</span>
+<a href="./beanNext.jsp">스크프 결과 확인을 위한 페이지 이동</a>
+</section>

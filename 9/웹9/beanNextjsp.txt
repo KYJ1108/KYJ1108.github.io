@@ -1,0 +1,11 @@
+<% request.setCharacterEncoding("utf-8"); %>
+<title>실습</title>
+<jsp:useBean id="dto" class="studpkg.comp" scope="session"/>
+<jsp:getProperty name="dto" property="num"/>
+
+<section>
+<span>>dto.getNum() = </span>
+<jsp:getProperty name="dto" property="num"/>
+</br><span>이동</span>
+<a href="./beanScope.jsp">홈페이지</a>
+</section>
