@@ -11,9 +11,17 @@
 </head>
 <body>
   <h2>4주차 숙제</h2>
-    <h3>소스 코드</h3>
+    <h3>for문 소스 코드</h3>
   <img src="https://KYJ1108.github.io/java/4/home4-2c.png">      <!-- 소스코드 캡처 화면 -->
-    <h3>실행 결과</h3>
+    <h3>for문 실행 결과</h3>
   <img src="https://KYJ1108.github.io/java/4/home4-2r.png">       <!-- 이클립스 결과 캡처 화면 -->
+ <h3>while문 소스 코드</h3>
+  <img src="https://KYJ1108.github.io/java/home3-14c.png">      <!-- 소스코드 캡처 화면 -->
+    <h3>while문 실행 결과</h3>
+  <img src="https://KYJ1108.github.io/java/home3-14r.png">       <!-- 이클립스 결과 캡처 화면 -->
+ <h3>do while문 소스 코드</h3>
+  <img src="https://KYJ1108.github.io/java/home3-15c.png">      <!-- 소스코드 캡처 화면 -->
+    <h3>do while문 실행 결과</h3>
+  <img src="https://KYJ1108.github.io/java/home3-15r.png">       <!-- 이클립스 결과 캡처 화면 -->
 </body>
 </html>
